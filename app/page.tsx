@@ -1,4 +1,5 @@
 import { Contact } from "@/components/Contact";
+import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/Hero";
 import { KeyMetrics } from "@/components/KeyMetrics";
 import { LogoAnimation } from "@/components/LogoAnimation";
@@ -10,14 +11,15 @@ import { Stack } from "@/components/Stack";
 export default function Home() {
   return (
     <>
-    <Navbar/>
-    <Hero/>
-    <Stack/>
-    <LogoAnimation/>
-    <KeyMetrics/>
-    <Portfolio/>
-    <Services/>
-    <Contact/>
+      <Navbar />
+      <Hero />
+      <Stack />
+      <LogoAnimation />
+      <KeyMetrics />
+      <Portfolio />
+      <Services />
+      <Contact />
+      <Footer />
     </>
   );
 }

@@ -41,15 +41,6 @@ export const Contact = () => {
                                 <span className='text-gray-500'>↗</span>
                             </a>
                         </div>
-
-                        <div className='space-y-2'>
-                            <p className='text-lg text-gray-300'>Office</p>
-                            <address className='text-xl not-italic leading-relaxed'>
-                                Palamós<br />
-                                Girona<br />
-                                Spain
-                            </address>
-                        </div>
                     </motion.div>
                 </div>
                 <motion.div
@@ -58,7 +49,7 @@ export const Contact = () => {
                     transition={{ duration: 0.6, delay: 0.6 }}
                     className='w-full h-full min-h-[400] rounded-2xl overflow-hidden'>
                     <iframe
-                        src='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23770.29474382656!2d3.1212996547969047!3d41.86517461961626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12bbaad8439676e1%3A0x400fae021a46c00!2sPalam%C3%B3s%2C%20Girona!5e0!3m2!1ses!2ses!4v1739454891677!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23770.29474382656!2d3.1212996547969047!3d41.86517461961626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12bbaad8439676e1%3A0x400fae021a46c00!2sPalam%C3%B3s%2C%20Girona!5e0!3m2!1ses!2ses!4v1739454891677!5m2!1ses!2ses"
                         width="100%"
                         height="100%"
                         style={{ border: 0 }}

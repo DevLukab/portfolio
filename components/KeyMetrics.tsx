@@ -12,15 +12,21 @@ const metrics = [
     },
     {
         id: 2,
-        value: '99%',
+        value: '100%',
         label: 'Code Quality',
         description: 'Committed to writing clean, efficient, and maintainable code.'
     },
     {
         id: 3,
-        value: '5+',
-        label: 'Years of Experience',
-        description: 'Dedicated ro honing my skills in full-stack development.'
+        value: '24/7',
+        label: 'Debugging & Optimization',
+        description: 'Committed to fixing bugs and improving system performance.'
+    },
+    {
+        id: 4,
+        value: '100%',
+        label: 'Responsive Design',
+        description: 'Ensuring a seamless experience across all devices.'
     }
 ]
 
@@ -45,7 +51,7 @@ export const KeyMetrics = () => {
                     className="text-6xl font-bold mb-12">
                     KEY METRICS
                 </motion.h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                     {metrics.map((metric, index) => (
                         <motion.div
                             key={metric.id}
