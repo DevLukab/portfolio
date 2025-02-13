@@ -81,7 +81,7 @@ export const Hero = () => {
                         scale: 0.985
                     }}
                     className="flex w-fit items-center gap-2 rounded-full px-4 py-2 bg-white/10 text-white shadow-xl">
-                    Download CsV <FiArrowRight />
+                    Download CV <FiArrowRight />
                 </motion.a>
 
                 <div className="flex space-x-6 mt-8">
