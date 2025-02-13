@@ -1,7 +1,6 @@
 "use client"
 
 import { motion } from 'framer-motion'
-import { FaArrowRight } from "react-icons/fa";
 
 export const Contact = () => {
     return (

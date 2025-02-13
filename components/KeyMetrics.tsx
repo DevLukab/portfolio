@@ -2,8 +2,6 @@
 
 import React from "react"
 import { motion, useInView } from 'framer-motion'
-import { label } from "framer-motion/client"
-
 
 const metrics = [
     {
