@@ -8,6 +8,7 @@ import linkedin from "@/assets/linkedin.png"
 import github from "@/assets/github.png"
 import stackoverflow from "@/assets/stack-overflow.png"
 import trello from "@/assets/trello.png"
+import azure from "@/assets/azure.png"
 
 const images = [
     { src: oracle, alt: "oracle" },
@@ -15,24 +16,35 @@ const images = [
     { src: linkedin, alt: "linkedin" },
     { src: github, alt: "github" },
     { src: stackoverflow, alt: "stackoverflow" },
+    { src: azure, alt: "azure" },
     { src: trello, alt: "trello" },
     { src: oracle, alt: "oracle" },
     { src: figma, alt: "figma" },
     { src: linkedin, alt: "linkedin" },
     { src: github, alt: "github" },
     { src: stackoverflow, alt: "stackoverflow" },
+    { src: azure, alt: "azure" },
     { src: trello, alt: "trello" },
     { src: oracle, alt: "oracle" },
     { src: figma, alt: "figma" },
     { src: linkedin, alt: "linkedin" },
     { src: github, alt: "github" },
     { src: stackoverflow, alt: "stackoverflow" },
+    { src: azure, alt: "azure" },
     { src: trello, alt: "trello" },
     { src: oracle, alt: "oracle" },
     { src: figma, alt: "figma" },
     { src: linkedin, alt: "linkedin" },
     { src: github, alt: "github" },
     { src: stackoverflow, alt: "stackoverflow" },
+    { src: azure, alt: "azure" },
+    { src: trello, alt: "trello" },
+    { src: oracle, alt: "oracle" },
+    { src: figma, alt: "figma" },
+    { src: linkedin, alt: "linkedin" },
+    { src: github, alt: "github" },
+    { src: stackoverflow, alt: "stackoverflow" },
+    { src: azure, alt: "azure" },
     { src: trello, alt: "trello" },
 ]
 
