@@ -8,14 +8,14 @@ import { SiTypescript } from "react-icons/si"
 import { FaAndroid } from "react-icons/fa";
 import { SiKotlin } from "react-icons/si";
 import { BsFiletypeSql } from "react-icons/bs"
-import { FaPython } from "react-icons/fa";
 import { FaAngular } from "react-icons/fa";
+import { TbBrandCSharp } from "react-icons/tb";
 
 const stackItems = [
     { id: 1, name: 'HTML', icon: FaHtml5, color: '#E34F26' },
     { id: 2, name: 'CSS', icon: MdCss, color: '#1572B6' },
     { id: 3, name: 'JavaScript', icon: IoLogoJavascript, color: '#F7DF1E' },
-    { id: 4, name: 'Python', icon: FaPython, color: '#3776AB' },
+    { id: 4, name: 'C#', icon: TbBrandCSharp, color: '#68217A' },
     { id: 5, name: 'Angular', icon: FaAngular, color: '#DD0031' },
     { id: 6, name: 'React', icon: FaReact, color: '#61DAFB' },
     { id: 7, name: 'TypeScript', icon: SiTypescript, color: '#3178C6' },
@@ -26,7 +26,7 @@ const stackItems = [
 
 export const Stack = () => {
     return (
-        <section className="py-16 glass">
+        <section className="py-16 glass" id="stack">
             <div className="max-w-[1200px] mx-auto px-4 text-center">
                 <h2 className="text-5xl text-gray-200 font-bold mb-4">My Stack</h2>
                 <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">

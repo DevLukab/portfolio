@@ -2,39 +2,44 @@
 
 import Image from "next/image"
 import { motion } from "framer-motion"
-import udemy from "@/assets/udemy.png"
-import fiverr from "@/assets/fiverr.png"
-import elementor from "@/assets/elementor.png"
-import logitech from "@/assets/logitech.png"
 import oracle from "@/assets/oracle.png"
+import figma from "@/assets/figma.png"
+import linkedin from "@/assets/linkedin.png"
+import github from "@/assets/github.png"
+import stackoverflow from "@/assets/stack-overflow.png"
+import trello from "@/assets/trello.png"
 
 const images = [
-    { src: udemy, alt: "figma" },
-    { src: fiverr, alt: "fiverr" },
-    { src: elementor, alt: "elementor" },
-    { src: logitech, alt: "logitech" },
     { src: oracle, alt: "oracle" },
-    { src: udemy, alt: "figma" },
-    { src: fiverr, alt: "fiverr" },
-    { src: elementor, alt: "elementor" },
-    { src: logitech, alt: "logitech" },
+    { src: figma, alt: "figma" },
+    { src: linkedin, alt: "linkedin" },
+    { src: github, alt: "github" },
+    { src: stackoverflow, alt: "stackoverflow" },
+    { src: trello, alt: "trello" },
     { src: oracle, alt: "oracle" },
-    { src: udemy, alt: "figma" },
-    { src: fiverr, alt: "fiverr" },
-    { src: elementor, alt: "elementor" },
-    { src: logitech, alt: "logitech" },
+    { src: figma, alt: "figma" },
+    { src: linkedin, alt: "linkedin" },
+    { src: github, alt: "github" },
+    { src: stackoverflow, alt: "stackoverflow" },
+    { src: trello, alt: "trello" },
     { src: oracle, alt: "oracle" },
-    { src: udemy, alt: "figma" },
-    { src: fiverr, alt: "fiverr" },
-    { src: elementor, alt: "elementor" },
-    { src: logitech, alt: "logitech" },
-    { src: oracle, alt: "oracle" }
+    { src: figma, alt: "figma" },
+    { src: linkedin, alt: "linkedin" },
+    { src: github, alt: "github" },
+    { src: stackoverflow, alt: "stackoverflow" },
+    { src: trello, alt: "trello" },
+    { src: oracle, alt: "oracle" },
+    { src: figma, alt: "figma" },
+    { src: linkedin, alt: "linkedin" },
+    { src: github, alt: "github" },
+    { src: stackoverflow, alt: "stackoverflow" },
+    { src: trello, alt: "trello" },
 ]
 
 
 export const LogoAnimation = () => {
     return (
-        <div className="py-8 bg-purple-200/10 opacity-80">
+        <div className="py-8 bg-purple-200/10 glass opacity-80">
             <div className="container mx-auto">
                 <div className="overflow-hidden [mask-image:linear-gradient(to_right,_transparent,_black_25%,_black_75%,_transparent)]">
                     <motion.div 
@@ -48,7 +53,14 @@ export const LogoAnimation = () => {
                         ease: "linear",
                         repeatType: "loop"
                     }}>
-
+                        {images.map((image, index) => (
+                            <Image
+                                key={index}
+                                src={image.src}
+                                alt={image.alt}
+                                height={40}
+                            />
+                        ))}
                     </motion.div>
                 </div>
             </div>

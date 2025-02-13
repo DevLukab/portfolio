@@ -26,7 +26,7 @@ export const Hero = () => {
     const boxShadow = useMotionTemplate`0px 4px 24px ${color}`
 
     return (
-        <motion.section style={{ backgroundImage }} className="relative grid min-h-screen place-content-center
+        <motion.section id="home" style={{ backgroundImage }} className="relative grid min-h-screen place-content-center
         overflow-hidden px-4 py-24 text-gray-200">
             <div className="z-10 flex flex-col items-center">
                 <span className="mb-1.5 inline-block rounded-full bg-gray-600/50 px-3 py-1.5 text-sm">
@@ -61,12 +61,14 @@ export const Hero = () => {
                         width={30}
                         className="rounded-2xl mx-auto"
                     />
-                    <p className="font-medium">80+ Happy Clients</p>
+                    <p className="font-medium">Coding & Learning Every Day</p>
                 </div>
 
                 <p className="my-6 max-w-xl text-center">FullStack Developer based in Spain</p>
 
-                <motion.button
+                <motion.a
+                    href="/Luka's CV.pdf"
+                    download="Luka_Barbakadze_CV.pdf"
                     style={{
                         border,
                         boxShadow
@@ -77,9 +79,9 @@ export const Hero = () => {
                     whileTap={{
                         scale: 0.985
                     }}
-                    className="flex w-fit items-center gap-2 rounded-full px-4 py-2">
-                    Download CV<FiArrowRight />
-                </motion.button>
+                    className="flex w-fit items-center gap-2 rounded-full px-4 py-2 bg-white/10 text-white shadow-xl">
+                    Download CV <FiArrowRight />
+                </motion.a>
             </div>
 
             <div className="bg-circle-container">
