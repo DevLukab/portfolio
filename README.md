@@ -34,7 +34,7 @@ This is a **modern web portfolio** built with **TypeScript**, **Tailwind CSS**, 
 
 ## Live Demo 🌐
 You can view the live website at the following link:
-[Live Demo](https://devlukab.github.io/portfolio/)
+[Live Demo](https://devlukab.github.io/portfolio)
 
 ## Preview 👀
 ![alt text](image.png)
