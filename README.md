@@ -12,7 +12,7 @@ This is a **modern web portfolio** built with **TypeScript**, **Tailwind CSS**, 
 - **TypeScript**: Strongly-typed JavaScript for maintainability 📝.
 - **Tailwind CSS**: Utility-first styling for rapid development 🎨.
 - **Framer Motion**: Smooth and customizable animations 🏃.
-- **React** (Optional): If used, enables reusable components ⚛️.
+- **React**: If used, enables reusable components ⚛️.
 
 ## Installation and Usage 🚀
 1. Clone this repository:
