@@ -1,12 +1,16 @@
 import type { NextConfig } from "next";
 
+const isProd = process.env.NODE_ENV === "production";
+
 const nextConfig: NextConfig = {
-  output: "export", // Activa el modo de exportación estática
+  output: "export",
   images: {
-    unoptimized: true, // Evita errores con imágenes en next/image
+    unoptimized: true,
   },
-  basePath: "/portfolio", // Nombre de tu repositorio en GitHub
-  assetPrefix: "/portfolio",
+  ...(isProd && {
+    basePath: "/portfolio",
+    assetPrefix: "/portfolio",
+  }),
 };
 
 export default nextConfig;
