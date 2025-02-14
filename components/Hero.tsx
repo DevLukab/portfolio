@@ -6,7 +6,7 @@ import { animate, useMotionTemplate, useMotionValue, motion } from "framer-motio
 import { useEffect } from "react";
 import Image from "next/image";
 import { FiArrowRight } from "react-icons/fi";
-import { FaLinkedin, FaGithub, FaArrowUp } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const COLORS_TOP = ["#13FAA", "#1E67C6", "#CE84CF", "DD335C"];
 
@@ -20,7 +20,7 @@ export const Hero = () => {
             repeat: Infinity,
             repeatType: "mirror"
         });
-    }, []);
+    }, [color]);
 
     const backgroundImage = useMotionTemplate`radial-gradient(125% 125% at 50% 0%, #000 50%, ${color})`;
     const border = useMotionTemplate`1px solid ${color}`;
