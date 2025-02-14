@@ -34,8 +34,8 @@ export const Hero = () => {
                     Open for work
                 </span>
                 <h1 className="text-white/40 text-5xl md:text-7xl font-black">Hi, I am</h1>
-                <h1 className="max-w-3xl bg-gradient-to-br from-white to-gray-400 bg-clip-text
-                font-black leading-tight text-transparent text-5xl md:text-7xl">
+                <h1 className="max-w-3xl bg-gradient-to-br from-white to-gray-400 bg-clip-text 
+                font-black leading-tight text-transparent text-3xl sm:text-4xl md:text-7xl">
                     Luka Barbakadze
                 </h1>
                 <Image
@@ -62,7 +62,7 @@ export const Hero = () => {
                         width={30}
                         className="rounded-2xl mx-auto"
                     />
-                    <p className="font-medium">Coding & Learning Every Day</p>
+                    <p className="font-medium text-sm sm:text-base">Coding & Learning Every Day</p>
                 </div>
 
                 <p className="mb-4 max-w-xl text-center">FullStack Developer based in Spain</p>

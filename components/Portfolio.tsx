@@ -4,14 +4,14 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import project1 from "@/assets/project1.jpg";
 import project2 from "@/assets/project2.jpg";
-import project3 from "@/assets/proj7.png";
+import project3 from "@/assets/project3.jpg";
 import { useMotionTemplate, useMotionValue, motion, animate, AnimatePresence } from "framer-motion";
 import { CgChevronDown } from "react-icons/cg";
 
 const projects = [
     {
         id: 1,
-        year: 2024,
+        year: 2025,
         title: 'Personal Portfolio',
         description: 'This was my personal portfolio, developed from scratch using HTML, CSS, and JavaScript.',
         image: project1,
@@ -20,18 +20,18 @@ const projects = [
     {
         id: 2,
         year: 2024,
+        title: 'Jack Or Better',
+        description: 'Jack or Better is a video poker game developed using WPF.',
+        image: project3,
+        link: 'https://github.com/DevLukab/JackOrBetter'
+    },
+    {
+        id: 3,
+        year: 2023,
         title: 'Rock Paper Scissors Lizard Spock',
         description: 'This project is a Rock Paper Scissors Lizard Spock game, built using WPF for an engaging and interactive experience.',
         image: project2,
         link: 'https://github.com/DevLukab/RPSLS'
-    },
-    {
-        id: 3,
-        year: 2024,
-        title: 'Customer support chatbot',
-        description: 'I created a full customer support chatbot from scratch using modern technologies and my knowledge.',
-        image: project3,
-        link: 'https://your-chatbot-link.com'
     },
 ];
 
