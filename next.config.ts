@@ -5,8 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, // Evita errores con imágenes en next/image
   },
-  basePath: "/modern-portfolio", // Nombre de tu repositorio en GitHub
-  assetPrefix: "/modern-portfolio",
+  basePath: "/portfolio", // Nombre de tu repositorio en GitHub
+  assetPrefix: "/portfolio",
 };
 
 export default nextConfig;
