@@ -28,7 +28,7 @@ export const Contact = () => {
                             <p className='text-lg text-gray-300'>Phone</p>
                             <a href="tel: +34688252242"
                                 className='text-2xl font-semibold hover:text-purple-400 transition duration-300 flex items-center gap-2'>
-                                +34 1
+                                +34 688 252 242
                                 <span className='text-gray-500'>↗</span>
                             </a>
                         </div>
