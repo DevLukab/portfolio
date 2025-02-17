@@ -69,7 +69,7 @@ export const Hero = () => {
                 <p className="mb-4 max-w-xl text-center">FullStack Developer based in Spain</p>
 
                 <motion.a
-                    href="/Luka_CV.pdf"
+                    href="https://devlukab.github.io/portfolio/Luka_CV.pdf"
                     download="Luka_Barbakadze_CV.pdf"
                     style={{
                         border,
