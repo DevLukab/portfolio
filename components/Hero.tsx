@@ -1,5 +1,6 @@
 "use client"
 
+// imports
 import obj from "@/assets/obj1.png";
 import profilepic from "@/assets/profilepic.png";
 import { animate, useMotionTemplate, useMotionValue, motion } from "framer-motion";
