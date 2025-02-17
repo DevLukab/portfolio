@@ -28,7 +28,7 @@ export const Contact = () => {
                             <p className='text-lg text-gray-300'>Phone</p>
                             <a href="tel: +34688252242"
                                 className='text-2xl font-semibold hover:text-purple-400 transition duration-300 flex items-center gap-2'>
-                                +34 688 252 242
+                                +34 1
                                 <span className='text-gray-500'>↗</span>
                             </a>
                         </div>
@@ -49,6 +49,7 @@ export const Contact = () => {
                     transition={{ duration: 0.6, delay: 0.6 }}
                     className='w-full aspect-[16/9] md:h-full min-h-[350px] rounded-2xl overflow-hidden'>
                     <iframe
+                        title='My Location'
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23770.29474382656!2d3.1212996547969047!3d41.86517461961626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12bbaad8439676e1%3A0x400fae021a46c00!2sPalam%C3%B3s%2C%20Girona!5e0!3m2!1ses!2ses!4v1739454891677!5m2!1ses!2ses"
                         width="100%"
                         height="100%"
