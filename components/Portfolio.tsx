@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import project1 from "@/assets/project1.jpg";
+import project1 from "@/assets/project1.png";
 import project2 from "@/assets/project2.jpg";
 import project3 from "@/assets/project3.jpg";
 import { useMotionTemplate, useMotionValue, motion, animate, AnimatePresence } from "framer-motion";
@@ -12,10 +12,10 @@ const projects = [
     {
         id: 1,
         year: 2025,
-        title: 'Personal Portfolio',
-        description: 'This was my personal portfolio, developed from scratch using HTML, CSS, and JavaScript.',
+        title: 'Gemini AI Clone',
+        description: 'This project is a fully functional replica of Gemini AI, built using React.',
         image: project1,
-        link: 'https://github.com/DevLukab/portfolio'
+        link: 'https://github.com/DevLukab/gemini-clone'
     },
     {
         id: 2,
