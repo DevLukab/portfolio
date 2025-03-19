@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import project1 from "@/assets/project1.png";
-import project2 from "@/assets/project2.jpg";
+import project2 from "@/assets/project2.png";
 import project3 from "@/assets/project3.jpg";
 import { useMotionTemplate, useMotionValue, motion, animate, AnimatePresence } from "framer-motion";
 import { CgChevronDown } from "react-icons/cg";
@@ -19,10 +19,10 @@ const projects = [
     },
     {
         id: 2,
-        year: 2024,
-        title: 'Jack Or Better',
-        description: 'Jack or Better is a video poker game developed using WPF.',
-        image: project3,
+        year: 2025,
+        title: 'Fruit Management Project',
+        description: 'This is a React and FastAPI project for managing a list of fruits.',
+        image: project2,
         link: 'https://github.com/DevLukab/JackOrBetter'
     },
     {
@@ -30,7 +30,7 @@ const projects = [
         year: 2023,
         title: 'Rock Paper Scissors Lizard Spock',
         description: 'This project is a Rock Paper Scissors Lizard Spock game, built using WPF for an engaging and interactive experience.',
-        image: project2,
+        image: project3,
         link: 'https://github.com/DevLukab/RPSLS'
     },
 ];
