@@ -86,7 +86,7 @@ export const Hero = () => {
                 </motion.a>
 
                 <div className="flex space-x-6 mt-8">
-                    <a href="https://www.linkedin.com/in/luka-barbakadze-78b9352b8/" target="_blank"
+                    <a href="https://www.linkedin.com/in/luka-barbakadze/" target="_blank"
                         rel="noopener noreferrer" className="hover:text-[#0A66C2] transition-colors duration-300">
                         <FaLinkedin size={50} />
                     </a>
