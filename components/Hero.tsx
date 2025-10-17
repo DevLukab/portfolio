@@ -32,7 +32,7 @@ export const Hero = () => {
         overflow-hidden px-4 py-24 text-gray-200">
             <div className="z-10 flex flex-col items-center mt-8">
                 <span className="mb-4 inline-block rounded-full bg-gray-600/50 px-3 py-1.5 text-sm">
-                    Open for work
+                    Always Building & Learning
                 </span>
                 <h1 className="text-white/40 text-5xl md:text-7xl font-black">Hi, I am</h1>
                 <h1 className="max-w-3xl bg-gradient-to-br from-white to-gray-400 bg-clip-text 
@@ -86,7 +86,7 @@ export const Hero = () => {
                 </motion.a>
 
                 <div className="flex space-x-6 mt-8">
-                    <a href="https://www.linkedin.com/in/luka-barbakadze-78b9352b8/" target="_blank"
+                    <a href="https://www.linkedin.com/in/luka-barbakadze/" target="_blank"
                         rel="noopener noreferrer" className="hover:text-[#0A66C2] transition-colors duration-300">
                         <FaLinkedin size={50} />
                     </a>

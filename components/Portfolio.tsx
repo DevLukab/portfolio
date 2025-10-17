@@ -23,7 +23,7 @@ const projects = [
         title: 'Fruit Management Project',
         description: 'This is a React and FastAPI project for managing a list of fruits.',
         image: project2,
-        link: 'https://github.com/DevLukab/JackOrBetter'
+        link: 'https://github.com/DevLukab/react-fastapi'
     },
     {
         id: 3,
